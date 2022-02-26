@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 7px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: #000;
+
+}
+.subtitulo{
+    margin: 5px;
+}
+.botao{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid aqua;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+
+}
+.botao:hover{
+    background: aqua;
+    color: #fff;
+}
